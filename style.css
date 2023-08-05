@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #a9a2b1;
+}
+
+label {
+    display: block;
+}
+
+#z {
+    color: red;
+}
+
+.radio label,
+.radio input {
+    display: inline-block;
+}
+
+.cent {
+    display: flex;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.adc {
+    font-size: 10px;
+    columns: 2;
+    width: 80%; 
+}
+
+.title1 {
+    background-color: #683AB1;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+
+legend {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+.text-content {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.252);
+    
+
+}
+
+.tittle2 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.323);
+}
+
+.txt1 {
+    margin-bottom: 10px;
+}
+.mintxt{
+    margin-bottom: 15px;
+}
+
+
+.x{  /* input */
+width: 100%;
+margin-bottom: 15px;
+border: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+}
+.opcicionais{
+    margin-bottom: 20px;
+}
+.cent {
+    display: flex;
+    flex-direction: column;
+   
+}
+.ali{
+    columns: 2;
+    width: 50%;
+    
+}
+.but{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    background-color: #683AB1;
+    padding: 14px;
+    width: 100%;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+.but:hover{
+    background-color: #683ab178;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+.card{
+    height: 550px;
+}
+}
+@media screen and (max-width: 370px){
+    .card{
+        height: 580px;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu carro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="title1">Cadastre seu veiculo para vender mais rapido!</h2>
+    <div class="card">
+
+       <div class="text-content">
+        <h3 class="tittle2">FORMULARIO</h3>
+        <h1 class="txt1">Venda Facil seu carro!</h1>
+        <p class="mintxt">Descreva as caracteristicas e marque os opcionais que ele possui</p>
+        <legend>
+        <div class="tittle-anuncio">
+         
+            <label for="tittle-anuncio">Titulo do anuncio: <span id="z">*</span></label>
+            <input type="text" placeholder="Um titulo para anunciar seu carro" class="x" required> 
+        </div>
+        <div class="price">
+            <label for="price">Preco:<span id="z">*</span></label>
+            <input type="number" placeholder="Defina o Preco" class="x" required> 
+        </div>
+        <div class="descricao">
+            <label for="descricao">Descricao: <span id="z">*</span></label>
+            <textarea name="descricao" cols="40" rows="6" placeholder="Aqui voce coloca os detalhes do veiculo, por exemplo: se ele tem algum arranhao" required></textarea>
+        </div>
+        <div class="marca">
+            <label for="Marca">Marca: <span id="z">*</span></label>
+            <input type="text" placeholder="Digite a marca do veiculo" class="x" required> 
+        </div>
+        <div class="modelo">
+            <label for="modelo">Modelo: <span id="z">*</span></label>
+            <input type="text" placeholder="Digite o modelo do veiculo" class="x" required> 
+        </div>
+        <div class="kilometragem">
+            <label for="kilometragem">Kilometragem: <span id="z">*</span></label>
+            <input type="text" placeholder="Digite a kilometragem do  veiculo" class="x" required> 
+        </div>
+        <div class="data">
+            <label for="date">Data de compra: <span id="z">*</span></label>
+            <input type="date" class="x" required>
+        </div> 
+        <div class="cent">
+            <label for="">Tipo de Cambio</label>
+            <div class="ali">
+        <div class="radio" value="manual" name="tp-cambio">
+            <input type="radio" value="manual">
+             <label for="manual" class="c   ">Manual</label>
+         </div>
+         <div class="radio" value="automatico" name="tp-cambio">
+            <input type="radio" value="automatico">
+             <label for="automatico">Automatico</label>
+            </div>
+         </div>
+        </div>
+
+         <div class="opcicionais">
+            <label for="optionals">Opcionais:</label>
+            <div class="adc">
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="airbag">
+                <label for="airbag">Airbag</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="Alarme">
+                <label for="Alarme">Alarme</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="ar">
+                <label for="ar">Ar Codicionado</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="re">
+                <label for="re">Camera de Re</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="ar">
+                <label for="ar">Assistente de Pista</label>
+               </div>
+
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="keyless">
+                <label for="keyless">Partida keyless</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="int">
+                <label for="int">Integracao com celular</label>
+               </div>
+               <div class="radio">
+                <input type="checkbox" name="optionals[]" value="banco">
+                <label for="banco">Banco de couri</label>
+               </div>
+            </div>
+         </div>
+         <div class="file">
+            <label for="file">Fotos do carro: <span id="z">*</span></label>
+            <input type="file"  class="x" required>
+         </div>
+         
+         <input type="button" value="CADASTRAR" class="but">
+    </legend>
+    
+       </div>
+    </div>
+</body>
+</html>
